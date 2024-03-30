@@ -10,14 +10,14 @@ let personagem = {
     nome: "juan",
     grana: 5,
     trabalhar: function() {
-        personagem.grana++
-        return console.log(`agora você tem ${personagem.grana}`)
+        personagem.grana += 2
+        return console.log(`agora você tem ${personagem.grana} reais`)
     }
 }
 const taxi = { //usando chaves para declarar objeto
     viajar: function(lugar) { 
         if (personagem.grana >= 5){
-        personagem.grana = personagem.grana - taxi.preco
+        personagem.grana -= taxi.preco
         return console.log(`você fez uma viagem para ${lugar}, você tem ${personagem.grana} reais`) 
         } else{
             return ('você não tem dinheiro para o taxi')
