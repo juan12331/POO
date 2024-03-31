@@ -5,6 +5,9 @@
 //Atributos são conjuntos de caracteristicas especificas de um determinado objeto
 //O método é a caracteristica que permite alterar a funcionalidade de cada atributo é por meio deles que se é possível modificar os atributos de algum objeto
 
+
+
+// a variavel personagem é um objeto literal
 let personagem = {
     sexo: "homem",
     nome: "juan",
@@ -14,6 +17,8 @@ let personagem = {
         return console.log(`agora você tem ${personagem.grana} reais`)
     }
 }
+
+//a variavel taxi é um objeto literal
 const taxi = { //usando chaves para declarar objeto
     viajar: function(lugar) { 
         if (personagem.grana >= 5){
@@ -30,3 +35,16 @@ console.log(taxi) // acessa  o objeto por completo
 console.log(taxi.preco) // acessa uma propriedade especifica do objeto
 console.log(taxi.viajar("paraguai")) // acessa um método do objeto
 console.log(personagem)
+
+//objeto literal tem algumas desvantagens, como por exemplo se eu quisesse fazer um taxi literalmente igual
+// ao outro só que mais caro eu teria que criar mais um taxi (ruim)
+
+
+//existem outras maneiras de criar um objeto que são melhores que um objeto literal como mostrado acima e 
+//resolve os problemas do mesmo
+//exemplo:
+
+
+
+//factory:
+
