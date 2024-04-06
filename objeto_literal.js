@@ -42,9 +42,7 @@ console.log(personagem)
 
 //existem outras maneiras de criar um objeto que são melhores que um objeto literal como mostrado acima e 
 //resolve os problemas do mesmo
-//exemplo:
+//exemplo esta no factory.js
 
-
-
-//factory:
+//caso queira aprender mais: https://www.youtube.com/watch?v=X6klpqubyBw&ab_channel=Rocketseat
 
