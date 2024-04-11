@@ -17,7 +17,7 @@ function createPerson(sexo = "homem", grana = 50) //se não passar nada da varia
                 return console.log(`você lavou a louça, agora tem ${grana} reais`)
             } else{
             grana += 2
-            return console.log(`agora você tem ${grana} reais`)
+            return console.log(`você trabalhou agora você tem ${grana} reais`)
             }
         },
         trocarSexo: function() {
