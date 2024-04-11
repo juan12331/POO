@@ -27,9 +27,8 @@ const homem = createPerson("homem") // criando personagem homem
 const mulher = createPerson("mulher") //criando personagem mulher
 console.log(homem.sexo) // vai retornar homem pois la encima colocamos que o sexo = homem
 console.log(mulher.sexo) // vai retornar homem pois la encima colocamos que o sexo = mulher
-
-homem.trabalhar
-mulher.trabalhar
+homem.trabalhar();
+mulher.trabalhar();
 //caso queiramos que alguma propriedade do objeto exista (como o sexo) mas que ela não seja mostrada
 //podemos usar o factory (retirando apenas o sexo do return) e declarando como uma variavel fora do return
 //o que é impossivel de fazer no objectLiteral
