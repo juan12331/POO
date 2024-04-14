@@ -41,3 +41,6 @@ gatoRaivoso.emitirSom()
 console.log(Object.getPrototypeOf(gatoRaivoso)) // vai retornar gato
 console.log(Object.getPrototypeOf(Object.getPrototypeOf(gatoRaivoso))) // vai retornar animal (mesma coisa de fazer object.getprototypeof(gato))
 console.log(Object.getPrototypeOf(animal))
+
+
+// motivos para usar o prototype: fazer herança, assim quando criar diferentes objetos apenas precisamos colocar os metodos e valores que divergem dos seus pais
