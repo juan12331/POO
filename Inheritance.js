@@ -42,3 +42,24 @@ console.log(eu.falar())
 console.log(voce.falar())
 
 //nesse caso alterariamos a função para todos os objetos e isso resolveria o bug de forma muito mais simples
+
+
+class Humano {
+    falar() {
+         return "blablabla"
+        }
+}
+
+//agora aprenderemos outra coisa sobre classes q é o extends
+
+class SuperHumano extends Humano {
+    voar() {
+        return "voando";
+    }
+}
+
+const Tu = new SuperHumano();
+
+console.log(Tu.voar());
+console.log(Tu.falar()); // graças ao extends o objetoo "Tu" é capaz de falar mesmo sem a função falar inserida nele
+
