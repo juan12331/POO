@@ -31,8 +31,8 @@ const gatoRaivoso = {
 
 Object.setPrototypeOf(gatoRaivoso, gato)
 
-gatoRaivoso.miarForte() 
-gatoRaivoso.emitirSom()
+gatoRaivoso.miarForte()  // ira retornar MIAU
+gatoRaivoso.emitirSom() // ira retornar miau
 
 // o pai do gato raivoso é gato q é filho de animal, ou seja, vai sempre começar procurando algo no gatoRaivoso, para depois ir de pai em pai até achar oq procura, caso contrario da erro
 
