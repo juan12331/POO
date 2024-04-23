@@ -63,3 +63,4 @@ const Tu = new SuperHumano();
 console.log(Tu.voar());
 console.log(Tu.falar()); // graças ao extends o objetoo "Tu" é capaz de falar mesmo sem a função falar inserida nele
 
+//essa foi apenas uma maneira de usar inheritance podemos fazer usando prototype ou funções também
