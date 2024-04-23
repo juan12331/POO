@@ -6,13 +6,18 @@
 
 //supondo que temos 2 objetos aqui
 
-const eu = {
-    falar() { return 'blablabla'; }
-}
 
-const voce = {
-    falar() { return 'blablabla'; }
-}
 
-//aqui podemos ver um problama gravissimos, que seriam a duplicação de código
+// const eu = {
+//     falar() { return 'blablabla'; }
+// }
+
+// const voce = {
+//     falar() { return 'blablabla'; }
+// }
+
+
+
+//aqui podemos ver 2 problamas gravissimos, que seriam a duplicação de código, e apossibilidade da função der um bug (teriamos que arrumar e em todos)
 //por isso em javascript (e na maioria das linguagens) existe uma regra que diz que se você escreve o exato mesmo código duas vezes existe um jeito melhor de fazer ele
+//ou seja aquele código la encima, é mal feito
