@@ -31,3 +31,14 @@ class Pessoa {
 
 const eu = new Pessoa();
 const voce = new Pessoa();
+
+//nesse caso nem o objeto "eu" nem "pessoa" tem a função falar em si, é como se fosse um prototype onde a função falar esta em uma raiz
+//e esse código resolve o problema de fazer um update nas funções o que fica muito mais simples pois para atualizar a função em caso de bugs podemos fazer
+
+Pessoa.prototype.falar = function() {
+    return "blablabla Falando"
+}
+console.log(eu.falar())
+console.log(voce.falar())
+
+//nesse caso alterariamos a função para todos os objetos e isso resolveria o bug de forma muito mais simples
